@@ -1,0 +1,65 @@
+Data Size : 1000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes) 
+--------------------------------------------------------
+Merge Sort      8729           0.062       4488          
+Quick (First)   10019          0.059       800           
+Quick (Random)  10807          0.068       1000          
+Quick (Median3) 10533          0.060       640           
+
+Sorted check: Merge=OK First=OK Random=OK Median3=OK
+
+Data Size : 2000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes) 
+--------------------------------------------------------
+Merge Sort      19420          0.122       8528          
+Quick (First)   24409          0.121       1040          
+Quick (Random)  23341          0.146       920           
+Quick (Median3) 24373          0.123       840           
+
+Sorted check: Merge=OK First=OK Random=OK Median3=OK
+
+Data Size : 4000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes) 
+--------------------------------------------------------
+Merge Sort      42826          0.252       16568         
+Quick (First)   52876          0.268       1080          
+Quick (Random)  52181          0.314       1120          
+Quick (Median3) 52122          0.269       880           
+
+Sorted check: Merge=OK First=OK Random=OK Median3=OK
+
+Data Size : 8000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes) 
+--------------------------------------------------------
+Merge Sort      93677          0.563       32608         
+Quick (First)   123669         0.558       1200          
+Quick (Random)  112918         0.568       1160          
+Quick (Median3) 115397         0.464       920           
+
+Sorted check: Merge=OK First=OK Random=OK Median3=OK
+
+Data Size : 16000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes) 
+--------------------------------------------------------
+Merge Sort      203292         1.097       64648         
+Quick (First)   255020         1.268       1400          
+Quick (Random)  257042         2.444       1360          
+Quick (Median3) 252339         2.249       1040          
+
+Sorted check: Merge=OK First=OK Random=OK Median3=OK
+
+Data Size : 20000
+
+Algorithm       Comparisons    Time(ms)    Memory(Bytes) 
+--------------------------------------------------------
+Merge Sort      260912         2.430       80688         
+Quick (First)   367370         2.203       1520          
+Quick (Random)  326465         2.545       1280          
+Quick (Median3) 320976         2.281       1040          
+
+Sorted check: Merge=OK First=OK Random=OK Median3=OK
